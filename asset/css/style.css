@@ -224,3 +224,48 @@ span#right-side {
 .sidebar-menu li:hover{
     background-color: aliceblue;
 }
+
+.notice-image img{
+    height: 500px;
+    width: 100%;
+}
+
+.notice-text{
+    background-color:#dbdbdb;
+    padding: 5px 0px;
+}
+
+.local-notice {
+    background: #dbdbdb;
+    margin-top: 2rem;
+    padding-bottom: 10px;
+    padding-right: 20px;
+}
+
+div#notice-list {   
+    margin-top: 49px;
+}
+
+ul.notice-list {
+    padding: 0px;
+    margin: 0;
+    margin-top: 19px;
+}
+
+ul.notice-list li {
+    list-style: none;
+    display: block;
+    /* border-bottom: 1px dotted green; */
+    padding : 3px 0px;
+}
+
+ul.notice-list li a {
+    text-decoration: none;
+    color: black !important;
+    border-bottom: 1px dotted green;
+    font-size: 14px;
+}
+
+ul.notice-list li span{
+    color : green;
+}
